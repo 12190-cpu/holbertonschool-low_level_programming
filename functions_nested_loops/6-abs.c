@@ -2,15 +2,16 @@
 #include <stdio.h>
 
 /**
- * abs - print the absolute value of a integer
- * @int: the integer
+ * _abs - computes the absolute value of a integer
+ * @int: the integerto check
  *
- * Return: 1 or 0 or -1
+ * Return: the absolute value of i
  */
 
 int _abs(int i)
 {
-	printf("%d\n", i);
-
-	return (0);
+	if (i < 0)
+	return (-i);
+	else
+		return (i);
 }
