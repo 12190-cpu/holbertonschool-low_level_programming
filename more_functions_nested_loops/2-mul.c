@@ -11,5 +11,4 @@
 
 int mul(int a, int b)
 {
-	printf("Multiplication: %d\\n", (a * b));
-			}
+	printf("Multiplication: %d\\n", (a * b));}
