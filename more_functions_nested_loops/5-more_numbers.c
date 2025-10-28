@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * more_numbers - prints the numbers
- *@i: the int to run
- *@j: the imt to run
+ * more_numbers - prints the numbers x10
+ * followed by a new line
  *
  * Return: Always 0 (Success)
  */
