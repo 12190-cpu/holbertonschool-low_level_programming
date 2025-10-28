@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_line - draws a diagonal in the terminal
+ * print_diagonal - draws a diagonal in the terminal
  * @n: number of times the character _ should be printed
  *
  * Return: void
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i;
 
