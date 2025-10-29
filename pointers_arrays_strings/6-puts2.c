@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts2 - affiche un caractÃ¨re sur2 d'1 chaÃne® suivi d'un retour la lgne
- * @str: la chaÃ®ne Ã  afficher
+ * puts2 - affiche un caractÃ¨re sur2 d'1 chaÃne® suivi d'un retour ligne
+ * @str: la chaÃ®nea afficher
  *
  * Retour: rien (void)
  */
