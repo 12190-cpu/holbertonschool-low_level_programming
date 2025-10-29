@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - affiche un caractère sur deux d'une chaîne, suivi d'un retour à la ligne
+ * puts2 - affiche un caractère sur2 d'1 cha�ne� suivi d'un retour la lgne
  * @str: la chaîne à afficher
  *
  * Retour: rien (void)
