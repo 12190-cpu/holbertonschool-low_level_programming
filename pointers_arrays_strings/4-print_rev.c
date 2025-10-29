@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev - affiche une chaîne de caractères à l'envers, suivie d'un retour à la ligne
- * @s: la chaîne à afficher
+ * print_rev - aff une chaîne dec har a l'envers suivie dun retour a la ligne
+ * @s: la chaîe a afficher
  *
  * Retour: rien (void)
  */
