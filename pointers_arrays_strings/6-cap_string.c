@@ -1,36 +1,36 @@
 #include "main.h"
 
 /**
- * cap_string - Met en majuscule la première lettre de chaque mot
- * @s: Chaîne de caractèr a modifier
+ * cap_string - Met en majuscule la première lettre de chaque mt
+ * @s: Caract�re�s a modifir
  *
- * Return: La chaîne modifiée
+ * Return: La chaîne modifi�
  */
 char *cap_string(char *s)
 {
-	int i = 0;
+	char *ptr = s;
 	int capitalize = 1;
 
-	while (s[i])
+	while (*ptr)
 	{
-	if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' ||
-	s[i] == ',' || s[i] == ';' || s[i] == '.' ||
-	s[i] == '!' || s[i] == '?' || s[i] == '"' ||
-	s[i] == '(' || s[i] == ')' || s[i] == '{' ||
-	s[i] == '}')
+	if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' ||
+	*ptr == ',' || *ptr == ';' || *ptr == '.' ||
+	*ptr == '!' || *ptr == '?' || *ptr == '"' ||
+	*ptr == '(' || *ptr == ')' || *ptr == '{' ||
+	*ptr == '}')
 	{
-	cap = 1;
-
-	else if (cap && s[i] >= 'a' && s[i] <= 'z')
+	capitalize = 1;
+	}
+	else if (capitalize && *ptr >= 'a' && *ptr <= 'z')
 	{
-	s[i] = s[i] - ('a' - 'A');
-	cap = 0;
+	*ptr = *ptr - ('a' - 'A');
+	capitalize = 0;
 	}
 	else
 	{
-	cap = 0;
+	capitalize = 0;
 	}
-	i++;
+	ptr++;
 	}
 	return (s);
 }
