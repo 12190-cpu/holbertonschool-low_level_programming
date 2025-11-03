@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memset - met en memoire avec un meme octet
+ * _memset - met en memoire avec un meme octet
  * @s: pointeur vers le debut de la memoire
  * @b: octet a mettre en memoire
  * @n: nombre de fois qu'on remplit l'octet
