@@ -5,6 +5,8 @@
  * @s: la chaine a checker
  * @c: le caractere a localiser
  *
+ * Return: un pointeur vers les correspondances
+ * NULL si pas de correspondance
  */
 char *_strchr(char *s, char c)
 {
@@ -17,5 +19,6 @@ char *_strchr(char *s, char c)
 
 	if (c == '\0')
 	return (s);
+
 	return (NULL);
 }
