@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+
 
 /**
  * _strstr - Localise la première occrrence d'une sous-chaîne.
