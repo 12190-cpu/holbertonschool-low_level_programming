@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strpbrk - recherche 1 oct ds 1  chaine de caracteres
