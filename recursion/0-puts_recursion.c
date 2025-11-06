@@ -1,8 +1,10 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _puts_recursion - affiche une cha√Æne de caract√e
  * @s: pointer vers la cha√Æne de caract√e
+ *
+ * Return: affiche une suite de caractere
  *
  */
 void _puts_recursion(char *s)
