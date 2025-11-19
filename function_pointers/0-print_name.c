@@ -3,7 +3,7 @@
 
 /**
  * print_name - affiche un nom
- * @name: poitne vers le nom
+ * @name: pointe vers le nom
  * @f: pointe vers fonction
  *
  */
