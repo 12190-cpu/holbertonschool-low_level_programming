@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
+#include <stdarg.h>
 
 /**
  * print_strings - affiche une chaine de caracteres suivie d'une nouvelle ligne
