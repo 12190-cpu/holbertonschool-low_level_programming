@@ -1,6 +1,9 @@
-#include <stddef.h>
 #ifndef FUNCTIONS_POINTERS_H
 #define FUNCTIONS_POINTERS_H
+
+#include <stddef.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 /**
  * struct list_s - singly linked list
